@@ -16,7 +16,7 @@ class HomePage:
     hamburger_button_selector = "#data-rayons"
     epicerie_salee_selector = ".nav-item__menu-link [alt='Epicerie salée']"
     sub_category_selector = "#data-menu-level-1_R12 > li:nth-child(7)"
-    category_product_selector = "#data-menu-level-2_R12F05 > li:nth-child(3)"
+    category_product_selector = "#data-menu-level-2_R13F05 > li:nth-child(3)"
 
     def __init__(self, driver: webdriver.Chrome):
         self.driver = driver

@@ -54,7 +54,7 @@ def test_carrefour():
     action.perform()
 
     # clic on pate
-    pates = driver.find_element(By.CSS_SELECTOR, "#data-menu-level-2_R12F05 > li:nth-child(3)")
+    pates = driver.find_element(By.CSS_SELECTOR, "#data-menu-level-2_R13F05 > li:nth-child(3)")
     pates.click()
 
     # Call function to open product
